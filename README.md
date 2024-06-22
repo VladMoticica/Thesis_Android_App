@@ -1,0 +1,1 @@
+Partea de Aplicatie mobila
