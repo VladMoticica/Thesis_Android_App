@@ -3,10 +3,14 @@ Weadr is the official mobile companion for the IoT Arduino Weather Station.
 It provides a high-performance, real-time dashboard for monitoring environmental data, featuring a dynamic UI that adapts to the time of day and specific weather hazards.  
 
 ## ✨ Features
-Real-Time Sync: Data is fetched from the Firebase Realtime Database every second.  
+Real-Time Sync: Data is fetched from the Firebase Realtime Database every second. 
+
 Adaptive UI (5-Phase System): The background and interface colors transition through five distinct states: Night, Sunrise, Day, Sunset, and Late Night.  
+
 Intelligent Weather Status: A custom trapezoidal status bar at the top provides 15 possible background variations and 4 text status types based on combined temperature, wind, and rain data.  
+
 Historical Data Visualization: Integrated line charts (via MPAndroidChart) allow users to track trends in environmental parameters over time.  
+
 Safety Alerts: Built-in notification system for storms, high gas concentrations, or station failures.  
 
 ## 🛠️ Tech Stack  
@@ -21,14 +25,14 @@ Libraries:
 ##📂 Project Structure 
 app/  
 ├── src/main/java/.../   
-│   ├── MainActivity.kt     # Flash/Splash screen logic     
-│   └── Home.kt             # Core logic: Firebase sync & UI updates  
+│   ├── MainActivity.kt                          # Flash/Splash screen logic     
+│   └── Home.kt                                  # Core logic: Firebase sync & UI updates  
 ├── res/
 │   ├── layout/
-│   │   ├── activity_main.xml   # Splash screen layout  
-│   │   └── activity_home.xml   # Dashboard & Grid structure  
-│   └── drawable/           # Custom weather icons and status backgrounds  
-└── AndroidManifest.xml     # Permissions (Notifications, Hardware Accel)  
+│   │   ├── activity_main.xml                    # Splash screen layout  
+│   │   └── activity_home.xml                    # Dashboard & Grid structure  
+│   └── drawable/                                # Custom weather icons and status backgrounds  
+└── AndroidManifest.xml                          # Permissions (Notifications, Hardware Accel)  
 
 ## 📊 UI Logic: The Time Cycle
 The app divides the 24-hour cycle into five frames to enhance user experience:  
