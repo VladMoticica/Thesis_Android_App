@@ -1,4 +1,4 @@
-## 📱 Weadr - Android Weather Station App
+# 📱 Weadr - Android Weather Station App
 Weadr is the official mobile companion for the IoT Arduino Weather Station.   
 It provides a high-performance, real-time dashboard for monitoring environmental data, featuring a dynamic UI that adapts to the time of day and specific weather hazards.  
 
