@@ -23,17 +23,6 @@ Libraries:
 - Compatibility: Supports Android 7.0 (Nougat) and newer (API 24+).  
 
 ##📂 Project Structure 
-app/  
-├── src/main/java/.../   
-│   ├── MainActivity.kt                          # Flash/Splash screen logic     
-│   └── Home.kt                                  # Core logic: Firebase sync & UI updates  
-├── res/
-│   ├── layout/
-│   │   ├── activity_main.xml                    # Splash screen layout  
-│   │   └── activity_home.xml                    # Dashboard & Grid structure  
-│   └── drawable/                                # Custom weather icons and status backgrounds  
-└── AndroidManifest.xml                          # Permissions (Notifications, Hardware Accel)  
-
 app/<br>
  ├── src/main/java/.../<br>
  │  ├── MainActivity.kt<br>
